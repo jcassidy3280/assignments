@@ -1,0 +1,58 @@
+body {
+    background-color: seagreen;
+    margin: 5vw;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10vw;
+    color: orange;
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+    color: white;
+}
+#shapes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+#box {
+    background-color: aquamarine;
+    border: 2vw solid purple;
+    width: 60vw;
+    height: 25vw;
+    position: relative;
+    top: 1vw;
+    left: 2vw;
+    z-index: 2;
+}
+#oval {
+    background-color: chocolate;
+    border: 3vw solid white;
+    border-radius: 8vw;
+    width: 10vw;
+    height: 35vw;
+    position: relative;
+    top: -10vw;
+    left: -15vw;
+    z-index: 6;
+}
+#circle {
+    background-color: navy;
+    border: 1vw solid red;
+    border-radius: 60em;
+    padding: 1vw;
+    width: 25vw;
+    height: 10vw;
+    position: relative;
+    top: -2vw;
+    left: -50vw;
+    z-index: 4;
+ }
+ #signUpForm {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    font-size: 1vw;
+ }
